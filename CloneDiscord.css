@@ -59,6 +59,11 @@ font-weight: bolder;
   padding-bottom: 80px;
   z-index: 5;
 }
+section:first-of-type
+{
+  position: relative;
+  z-index: 1;
+}
 .position1
 {
   display: block;
