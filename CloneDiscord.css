@@ -53,16 +53,16 @@ font-weight: bolder;
   position: absolute;
   z-index:0;
 }
+section:first-of-type
+{
+  position: relative;
+  z-index: 1;
+}
 .texte
 {
   padding-right: 100px;
   padding-bottom: 80px;
   z-index: 5;
-}
-section:first-of-type
-{
-  position: relative;
-  z-index: 1;
 }
 .position1
 {
